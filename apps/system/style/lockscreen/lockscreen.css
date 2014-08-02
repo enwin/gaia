@@ -202,8 +202,7 @@
 }
 
 #lockscreen-conn-states span:first-child {
-  display: inline-block;
-  width: 4rem;
+  display: none;
 }
 
 #lockscreen-conn-states span:last-child {
