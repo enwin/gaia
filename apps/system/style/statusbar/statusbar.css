@@ -251,6 +251,11 @@ body.rb-enabled #statusbar-label {
   opacity: 0;
 }
 
+#statusbar-connections[data-multiple="true"] .statusbar-signal[aria-label="No SIM card"],
+#statusbar-connections[data-multiple="true"] .statusbar-signal[aria-label="No SIM card"] + .sb-icon.statusbar-data{
+  display: none;
+}
+
 /* call forwarding icons */
 #statusbar-call-forwardings {
   margin: 0;
